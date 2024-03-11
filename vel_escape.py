@@ -8,4 +8,4 @@ g = float(input("Ingrese la constante gravitacional g (en m/s²): "))
 v = math.sqrt(2 * g * r)
 
 # Mostrar la velocidad de escape
-print(f"La velocidad de escape es: {v} [m/s]")
+print(f"La velocidad de escape es: {round(v,1)} [m/s]")
